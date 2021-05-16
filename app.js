@@ -31,4 +31,4 @@ mongoose.connect(process.env.DB_CONNECTION, {useNewUrlParser: true, useUnifiedTo
 );
 
 //Listen Server
-app.listen(PORT, console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`));
+app.listen(PORT, console.log(`Server running in mode on port ${PORT}`));
